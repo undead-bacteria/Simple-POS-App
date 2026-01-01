@@ -61,9 +61,9 @@ Docker Compose
 
 # Service -> URL
 
-Order Service -> http://localhost:3000
-Inventory Service -> http://localhost:3001
-RabbitMQ Dashboard -> http://localhost:15672
+1. Order Service -> http://localhost:3000
+2. Inventory Service -> http://localhost:3001
+3. RabbitMQ Dashboard -> http://localhost:15672
 
 ## RabbitMQ Credentials
 
