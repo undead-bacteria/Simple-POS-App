@@ -43,7 +43,7 @@ Database: MongoDB
 Message Queue: RabbitMQ (amqplib)
 Containerization: Docker, Docker Compose
 
-## Getting Started
+# Getting Started
 
 # Prerequisites
 
