@@ -13,25 +13,25 @@ All services are fully containerized with Docker and orchestrated using Docker C
 
 ## Key Features
 
-# Order Service
+1. Order Service
 
 REST API for order creation and retrieval
 Publishes order events to RabbitMQ
 Stores order data in MongoDB
 
-# Inventory Service
+2. Inventory Service
 
 Subscribes to RabbitMQ order events
 Updates product stock atomically
 Exposes inventory query endpoints
 
-# Messaging (RabbitMQ)
+3. Messaging (RabbitMQ)
 
 Reliable message delivery
 Decouples order processing from inventory updates
 Enables horizontal scalability
 
-# Containerization
+4. Containerization
 
 Fully Dockerized services
 One-command startup using Docker Compose
@@ -43,7 +43,7 @@ Database: MongoDB
 Message Queue: RabbitMQ (amqplib)
 Containerization: Docker, Docker Compose
 
-### Getting Started
+## Getting Started
 
 # Prerequisites
 
@@ -57,7 +57,7 @@ Docker Compose
 2. Build and Start the System
    docker-compose up --build
 
-# Service Endpoints
+## Service Endpoints
 
 # Service -> URL
 
@@ -65,7 +65,7 @@ Order Service -> http://localhost:3000
 Inventory Service -> http://localhost:3001
 RabbitMQ Dashboard -> http://localhost:15672
 
-# RabbitMQ Credentials
+## RabbitMQ Credentials
 
 Username: guest
 Password: guest
